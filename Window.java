@@ -2,7 +2,7 @@ public class Window
 {
     private int length;
     private int width;
-    private boolean open;
+    private boolean isOpen;
 
     public Window(int length, int width)
     {
@@ -12,7 +12,7 @@ public class Window
 
     public void toggleWindow()
     {
-        this.open = !this.open;
-        System.out.println(this.open);
+        this.isOpen = !this.isOpen;
+        System.out.println("Window is open: " + this.isOpen);
     }
 }
