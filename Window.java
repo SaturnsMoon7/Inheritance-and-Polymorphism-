@@ -1,3 +1,4 @@
+
 public class Window 
 {
     private int length;

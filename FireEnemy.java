@@ -1,3 +1,4 @@
+
 public class FireEnemy extends Enemy
 {
     public FireEnemy(int health, float speed)

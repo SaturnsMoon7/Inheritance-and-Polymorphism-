@@ -1,3 +1,4 @@
+
 public class WaterEnemy extends Enemy
 {
     public WaterEnemy(int health, float speed)

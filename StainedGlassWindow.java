@@ -1,3 +1,4 @@
+
 public class StainedGlassWindow extends Window
 {
     private String colour;
@@ -9,5 +10,5 @@ public class StainedGlassWindow extends Window
     }
 
     public void displayWindowType()
-    { System.out.println("This is a stained window"); }
+    { System.out.println("This is a stained window with " + colour + "-coloured panes"); }
 }
